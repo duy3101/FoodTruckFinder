@@ -1,0 +1,272 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.foodtruckfinder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:9:22-76
+16
+17    <!-- Include required permissions for Google Maps API to run. -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\e818be5ffa8e9f184104a38905b61c2a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\e818be5ffa8e9f184104a38905b61c2a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\e818be5ffa8e9f184104a38905b61c2a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:5-67
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\e818be5ffa8e9f184104a38905b61c2a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:22-64
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\e818be5ffa8e9f184104a38905b61c2a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\e818be5ffa8e9f184104a38905b61c2a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\e818be5ffa8e9f184104a38905b61c2a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+24
+25    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+25-->[com.google.android.gms:play-services-measurement-api:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\1e99b367807a54c637a6fa2c57aacb57\play-services-measurement-api-17.0.1\AndroidManifest.xml:24:5-68
+25-->[com.google.android.gms:play-services-measurement-api:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\1e99b367807a54c637a6fa2c57aacb57\play-services-measurement-api-17.0.1\AndroidManifest.xml:24:22-65
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\4395a0890a4ca32a6e9be65d9831bd1f\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+26-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\4395a0890a4ca32a6e9be65d9831bd1f\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+27-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:26:5-110
+27-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:26:22-107
+28
+29    <application
+29-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:11:5-46:19
+30        android:name="androidx.multidex.MultiDexApplication"
+31        android:allowBackup="true"
+31-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:12:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\34ef1623cdd212f1da23770252777499\core-1.0.1\AndroidManifest.xml:22:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:13:9-43
+35        android:label="@string/app_name"
+35-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:14:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:15:9-54
+37        android:supportsRtl="true"
+37-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:16:9-35
+38        android:testOnly="true"
+39        android:theme="@style/AppTheme" >
+39-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:17:9-40
+40
+41        <!--
+42             The API key for Google Maps-based APIs is defined as a string resource.
+43             (See the file "res/values/google_maps_api.xml").
+44             Note that the API key is linked to the encryption key used to sign the APK.
+45             You need a different API key for each encryption key, including the release key that is used to
+46             sign the APK for publishing.
+47             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+48        -->
+49        <meta-data
+49-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:26:9-28:55
+50            android:name="com.google.android.geo.API_KEY"
+50-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:27:13-58
+51            android:value="@string/google_maps_key" />
+51-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:28:13-52
+52
+53        <activity
+53-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:30:9-32:68
+54            android:name="com.example.foodtruckfinder.CustomerMapsActivity"
+54-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:31:13-49
+55            android:label="@string/title_activity_customer_maps" />
+55-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:32:13-65
+56        <activity
+56-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:33:9-35:59
+57            android:name="com.example.foodtruckfinder.OwnerMapsActivity"
+57-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:34:13-46
+58            android:label="@string/title_activity_maps" />
+58-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:35:13-56
+59        <activity android:name="com.example.foodtruckfinder.UserSettingsActivity" />
+59-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:36:9-58
+59-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:36:19-55
+60        <activity android:name="com.example.foodtruckfinder.ProfileActivity" />
+60-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:37:9-53
+60-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:37:19-50
+61        <activity android:name="com.example.foodtruckfinder.RegisterActivity" />
+61-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:38:9-54
+61-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:38:19-51
+62        <activity android:name="com.example.foodtruckfinder.MainActivity" >
+62-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:39:9-45:20
+62-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:39:19-47
+63            <intent-filter>
+63-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:40:13-44:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:41:17-69
+64-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:41:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:43:17-77
+66-->D:\497\FoodTruckFinder\app\src\main\AndroidManifest.xml:43:27-74
+67            </intent-filter>
+68        </activity>
+69        <!-- Needs to be explicitly declared on P+ -->
+70        <uses-library
+70-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\e818be5ffa8e9f184104a38905b61c2a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+71            android:name="org.apache.http.legacy"
+71-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\e818be5ffa8e9f184104a38905b61c2a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+72            android:required="false" />
+72-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\e818be5ffa8e9f184104a38905b61c2a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+73
+74        <activity
+74-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\11d1192dd71485aa839646740f11039b\firebase-auth-18.1.0\AndroidManifest.xml:24:9-31:50
+75            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+75-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\11d1192dd71485aa839646740f11039b\firebase-auth-18.1.0\AndroidManifest.xml:25:13-85
+76            android:excludeFromRecents="true"
+76-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\11d1192dd71485aa839646740f11039b\firebase-auth-18.1.0\AndroidManifest.xml:26:13-46
+77            android:exported="true"
+77-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\11d1192dd71485aa839646740f11039b\firebase-auth-18.1.0\AndroidManifest.xml:27:13-36
+78            android:launchMode="singleTask"
+78-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\11d1192dd71485aa839646740f11039b\firebase-auth-18.1.0\AndroidManifest.xml:28:13-44
+79            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+79-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\11d1192dd71485aa839646740f11039b\firebase-auth-18.1.0\AndroidManifest.xml:29:13-102
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\11d1192dd71485aa839646740f11039b\firebase-auth-18.1.0\AndroidManifest.xml:30:13-72
+81
+82        <service
+82-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\11d1192dd71485aa839646740f11039b\firebase-auth-18.1.0\AndroidManifest.xml:33:9-39:19
+83            android:name="com.google.firebase.components.ComponentDiscoveryService"
+83-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\11d1192dd71485aa839646740f11039b\firebase-auth-18.1.0\AndroidManifest.xml:34:13-84
+84            android:exported="false" >
+84-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\11d1192dd71485aa839646740f11039b\firebase-auth-18.1.0\AndroidManifest.xml:35:13-37
+85            <meta-data
+85-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\11d1192dd71485aa839646740f11039b\firebase-auth-18.1.0\AndroidManifest.xml:36:13-38:85
+86                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+86-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\11d1192dd71485aa839646740f11039b\firebase-auth-18.1.0\AndroidManifest.xml:37:17-109
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\11d1192dd71485aa839646740f11039b\firebase-auth-18.1.0\AndroidManifest.xml:38:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-database:18.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\869ef5a5d51b977f1c9633163f91b8ad\firebase-database-18.0.1\AndroidManifest.xml:32:13-34:85
+89                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+89-->[com.google.firebase:firebase-database:18.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\869ef5a5d51b977f1c9633163f91b8ad\firebase-database-18.0.1\AndroidManifest.xml:33:17-109
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-database:18.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\869ef5a5d51b977f1c9633163f91b8ad\firebase-database-18.0.1\AndroidManifest.xml:34:17-82
+91            <meta-data
+91-->[com.google.android.gms:play-services-measurement-api:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\1e99b367807a54c637a6fa2c57aacb57\play-services-measurement-api-17.0.1\AndroidManifest.xml:30:13-32:85
+92                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+92-->[com.google.android.gms:play-services-measurement-api:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\1e99b367807a54c637a6fa2c57aacb57\play-services-measurement-api-17.0.1\AndroidManifest.xml:31:17-139
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.android.gms:play-services-measurement-api:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\1e99b367807a54c637a6fa2c57aacb57\play-services-measurement-api-17.0.1\AndroidManifest.xml:32:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\4395a0890a4ca32a6e9be65d9831bd1f\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+95                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+95-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\4395a0890a4ca32a6e9be65d9831bd1f\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\4395a0890a4ca32a6e9be65d9831bd1f\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+97        </service>
+98
+99        <receiver
+99-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\4395a0890a4ca32a6e9be65d9831bd1f\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+100            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+100-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\4395a0890a4ca32a6e9be65d9831bd1f\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+101            android:exported="true"
+101-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\4395a0890a4ca32a6e9be65d9831bd1f\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+102            android:permission="com.google.android.c2dm.permission.SEND" >
+102-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\4395a0890a4ca32a6e9be65d9831bd1f\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+103            <intent-filter>
+103-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\4395a0890a4ca32a6e9be65d9831bd1f\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+104                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+104-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\4395a0890a4ca32a6e9be65d9831bd1f\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+104-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\4395a0890a4ca32a6e9be65d9831bd1f\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+105            </intent-filter>
+106        </receiver>
+107
+108        <activity
+108-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\34ef7ea3aa053c8964e32291e9d96811\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+109            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+109-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\34ef7ea3aa053c8964e32291e9d96811\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+110            android:exported="false"
+110-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\34ef7ea3aa053c8964e32291e9d96811\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+111            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+111-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\34ef7ea3aa053c8964e32291e9d96811\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+112
+113        <receiver
+113-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:29:9-33:20
+114            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+114-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:30:13-85
+115            android:enabled="true"
+115-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:31:13-35
+116            android:exported="false" >
+116-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:32:13-37
+117        </receiver>
+118        <receiver
+118-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:34:9-42:20
+119            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+119-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:35:13-100
+120            android:enabled="true"
+120-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:36:13-35
+121            android:exported="true"
+121-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:37:13-36
+122            android:permission="android.permission.INSTALL_PACKAGES" >
+122-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:38:13-69
+123            <intent-filter>
+123-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:39:13-41:29
+124                <action android:name="com.android.vending.INSTALL_REFERRER" />
+124-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:40:17-79
+124-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:40:25-76
+125            </intent-filter>
+126        </receiver>
+127
+128        <service
+128-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:44:9-47:40
+129            android:name="com.google.android.gms.measurement.AppMeasurementService"
+129-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:45:13-84
+130            android:enabled="true"
+130-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:46:13-35
+131            android:exported="false" />
+131-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:47:13-37
+132        <service
+132-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:48:9-52:72
+133            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+133-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:49:13-87
+134            android:enabled="true"
+134-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:50:13-35
+135            android:exported="false"
+135-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:51:13-37
+136            android:permission="android.permission.BIND_JOB_SERVICE" />
+136-->[com.google.android.gms:play-services-measurement:17.0.1] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\26701cd5695c7c0bec2d24b4597c98fa\play-services-measurement-17.0.1\AndroidManifest.xml:52:13-69
+137
+138        <provider
+138-->[com.google.firebase:firebase-common:18.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\e69b61e18e65f41e2132a56d99492dcd\firebase-common-18.0.0\AndroidManifest.xml:12:9-16:39
+139            android:name="com.google.firebase.provider.FirebaseInitProvider"
+139-->[com.google.firebase:firebase-common:18.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\e69b61e18e65f41e2132a56d99492dcd\firebase-common-18.0.0\AndroidManifest.xml:13:13-77
+140            android:authorities="com.example.foodtruckfinder.firebaseinitprovider"
+140-->[com.google.firebase:firebase-common:18.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\e69b61e18e65f41e2132a56d99492dcd\firebase-common-18.0.0\AndroidManifest.xml:14:13-72
+141            android:exported="false"
+141-->[com.google.firebase:firebase-common:18.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\e69b61e18e65f41e2132a56d99492dcd\firebase-common-18.0.0\AndroidManifest.xml:15:13-37
+142            android:initOrder="100" />
+142-->[com.google.firebase:firebase-common:18.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\e69b61e18e65f41e2132a56d99492dcd\firebase-common-18.0.0\AndroidManifest.xml:16:13-36
+143
+144        <meta-data
+144-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\2669b38b54faeef2717982afcfb0ef33\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+145            android:name="com.google.android.gms.version"
+145-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\2669b38b54faeef2717982afcfb0ef33\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+146            android:value="@integer/google_play_services_version" />
+146-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\2669b38b54faeef2717982afcfb0ef33\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+147
+148        <provider
+148-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\77b37f5dc4c3096421217e96d8c655ba\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+149            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+149-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\77b37f5dc4c3096421217e96d8c655ba\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+150            android:authorities="com.example.foodtruckfinder.lifecycle-process"
+150-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\77b37f5dc4c3096421217e96d8c655ba\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+151            android:exported="false"
+151-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\77b37f5dc4c3096421217e96d8c655ba\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+152            android:multiprocess="true" />
+152-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\DEWEY\.gradle\caches\transforms-2\files-2.1\77b37f5dc4c3096421217e96d8c655ba\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+153    </application>
+154
+155</manifest>

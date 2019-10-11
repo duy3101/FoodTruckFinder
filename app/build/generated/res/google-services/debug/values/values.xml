@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">460920031058-s620aqci7beui9qnrm5g8be58fdiiqcn.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://foodtruckfinder-c31fb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">460920031058</string>
+    <string name="google_api_key" translatable="false">AIzaSyA2l2tX0bsikU9iFs5ldwC3DG7oycmSBfg</string>
+    <string name="google_app_id" translatable="false">1:460920031058:android:e54ab02d3d8afe54</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA2l2tX0bsikU9iFs5ldwC3DG7oycmSBfg</string>
+    <string name="google_storage_bucket" translatable="false">foodtruckfinder-c31fb.appspot.com</string>
+    <string name="project_id" translatable="false">foodtruckfinder-c31fb</string>
+</resources>
